@@ -10,6 +10,14 @@ namespace Csharplesson2
 	{
 		static void Main(string[] args)
 		{
+			int num = 12;
+			int anum = Add1(num);
+			Console.WriteLine(anum);
+		}
+		static int Add1(int number)
+		{
+			 number++;
+			return number;
 		}
 	}
 }
