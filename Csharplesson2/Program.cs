@@ -13,14 +13,14 @@ namespace Csharplesson2
 			num += inc;
 			return num;
 		}
-		static int Add1(int number)
+		static int add(int number)
 		{
 			return add(number, 1);
 		}
 		static void Main(string[] args)
 		{
 			int num = 12;
-			int anum = Add1(num);
+			int anum = add(num);
 			int rnum = add(num, anum);
 			Console.WriteLine("{0} plus i is {1}, but add them together to get {2}",num,anum,rnum);
 		}
