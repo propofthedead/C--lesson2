@@ -23,6 +23,8 @@ namespace Csharplesson2
 			int anum = add(num);
 			int rnum = add(num, anum);
 			Console.WriteLine("{0} plus i is {1}, but add them together to get {2}",num,anum,rnum);
+			rnum = add(num, -2);
+			Console.WriteLine("{0} minus two is {1}", num, rnum);
 		}
 	
 	}
